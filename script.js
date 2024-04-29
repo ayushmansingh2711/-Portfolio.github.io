@@ -96,14 +96,14 @@ const pageLeft = document.querySelector('.book-page.page-lef');
  // ooening animation(all pages right animation)
 
 
-//  pages.forEach((_, index) => {
-//     setTimeout(() =>{
-//         reverseIndex()
-//         pages[pageNumber].classList.remove('turn');
+ pages.forEach((_, index) => {
+    setTimeout(() =>{
+        reverseIndex()
+        pages[pageNumber].classList.remove('turn');
 
-//         setTimeout(() => {
-//             reverseIndex();
-//             pages[pageNumber].style.zIndex = 10 + index
-//         },500)
-//     }, (index+1) * 200 + 2100)
-// })
+        setTimeout(() => {
+            reverseIndex();
+            pages[pageNumber].style.zIndex = 10 + index
+        },500)
+    }, (index+1) * 200 + 2100)
+})
