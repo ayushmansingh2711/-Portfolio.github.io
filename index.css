@@ -432,3 +432,16 @@ box-shadow: var(--box-shadow);
  .back{
   margin-top: 40px;
  }
+ @media(max-width: 1100px){
+  .wrapper{
+    display: none;
+  }
+ }
+ .formobile{
+  color: white;
+ }
+ @media (min-width: 1100px){
+  .formobile{
+    display: none;
+  }
+ }
